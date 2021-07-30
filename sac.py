@@ -1,10 +1,10 @@
 import gym
 
-from tf2rl.algos.sac_discrete import SACDiscrete
-from tf2rl.experiments.trainer import Trainer
-from tf2rl.envs.utils import is_atari_env
-from tf2rl.envs.atari_wrapper import wrap_dqn
-from tf2rl.networks.atari_model import AtariQFunc, AtariCategoricalActor
+from sac.sac_discrete import SACDiscrete
+from sac.trainer import Trainer
+from sac.envs_utils import is_atari_env
+from sac.atari_wrapper import wrap_dqn
+from sac.atari_model import AtariQFunc, AtariCategoricalActor
 
 
 if __name__ == '__main__':
