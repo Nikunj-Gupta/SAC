@@ -2,5 +2,5 @@ gym[atari]
 opencv-python
 atari-py
 tensorflow
-tf2rl
+# tf2rl
 matplotlib
