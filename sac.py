@@ -12,11 +12,11 @@ if __name__ == '__main__':
     parser = SACDiscrete.get_argument(parser)
     parser.set_defaults(test_interval=2000)
     parser.set_defaults(max_steps=100000)
-    parser.set_defaults(gpu=-1)
+    parser.set_defaults(gpu=1)
     parser.set_defaults(n_warmup=500)
     parser.set_defaults(batch_size=32)
     parser.set_defaults(memory_capacity=int(1e4))
-    parser.set_defaults(show_progress=True)
+    parser.set_defaults(show_progress=False)
     parser.add_argument('--env-name', type=str, default="PongNoFrameskip-v4")
     args = parser.parse_args()
 
